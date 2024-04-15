@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './ChatApp.css';
+
 import { IoMdContacts } from "react-icons/io";
 const user_list = ["Alan", "Bob", "Carol", "Dean", "Elin"];
 import { BiSolidLike } from "react-icons/bi";
