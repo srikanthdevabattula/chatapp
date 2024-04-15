@@ -1,12 +1,16 @@
-import { BrowserRouter } from "react-router-dom";
-import Routers from "./routes";
+import React from 'react';
+
+import ChatApp from './components/ChatApp';
 
 function App() {
-	return (
-		<BrowserRouter>
-			<Routers />
-		</BrowserRouter>
-	);
+  return (
+    <div className=" h-[90vh]">
+      
+      <div className="">
+        <ChatApp />
+      </div>
+    </div>
+  );
 }
 
 export default App;

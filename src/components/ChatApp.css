@@ -1,0 +1,71 @@
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .message-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .message {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .like-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .message-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .message-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mention-list {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+    z-index: 1;
+    width: calc(100% - 20px);
+  }
+  
+  .mention-item {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .mention-item:hover {
+    background-color: #f1f1f1;
+  }
+  
